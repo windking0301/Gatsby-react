@@ -57,19 +57,27 @@ const PLinks = function( {data} ) {
 export default PLinks
 
 const ButtonContainer = styled.a`
-	border: 1px solid currentColor;
-	margin-bottom: 50px;
+	border: 1px solid currentColor; 
+	${below.iphone`
+		margin-left: 80px; 
+	`};
+	${below.tablet`
+		margin-left: 165px; 
+	`};
+	${below.phone`
+		margin-left: 3px; 
+	`};
+	margin-bottom: 50px; 
+	margin-left: 120px; 
 	${below.phone`
 		margin-bottom: 25px;
 	`};
 	color: #000;
-	margin-left:auto;
-	margin-right:auto;
 	font-family: 'Neutra Text TF';
-	font-weight:700; 
-  height: 3.2em;
+	font-weight:600; 
+  height: 4.5em;
   ${below.phone`
-  	height: 3.0em;
+  	height: 4.2em;
 	`};
 	:hover {
     background-color: #000;
@@ -82,12 +90,12 @@ const ButtonContainer = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 16em;
+  width: 8em;
   transition: all 0.2s linear;
   white-space: nowrap;
   border-radius: 0;
 	background: none; 
-	font-size: 2rem;
+	font-size: 13px;
 	line-height: 1;
 	letter-spacing: 0.33em;
 	text-transform: uppercase;	
