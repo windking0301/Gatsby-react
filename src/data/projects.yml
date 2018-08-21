@@ -1,0 +1,134 @@
+- name: Como Apartments
+  url: como-apartments
+  subtitle: MALVERN
+  half: false
+  last: false
+  home: true
+  overlay: true
+  text: No.1 Como is a boutique development of 34 designer residences, inspired by the location's rich architectural history. Right on the edge of Armadale, it is a rare opportunity, moments from the charming Malvern Village, train station, trams, shops and Malvern Central. Featuring Malvern's first residential glass tower, it presents a collection of private residences for modern living.
+  hero: /images/collections/como/como-hero-new.jpg
+  thumb: /images/collections/como/01.jpg
+  options: 
+    carousel:
+      - /images/collections/como/02.jpg
+      - /images/collections/como/03.jpg
+      - /images/collections/como/04.jpg
+    carousel02:
+      - /images/collections/como/05.jpg
+      - /images/collections/como/06.jpg
+      - /images/collections/como/07.jpg
+      - /images/collections/como/08.jpg
+    text: 'Spacious open plan deliver an atmospheric ambiance, with some residences featuring modern fireplaces and capacious balconies. Quality finishes and timer floorboards create a sense of warmth and home in your modern home.'
+    title02: 'The perfect location'
+    text02: 'Right on the edge of Armadale it is a rare opportunity, moments from the charming Malvern Village, train station, trams, shops and Malvern Central.'
+- name: Glassworks
+  url: glassworks
+  subtitle: RICHMOND
+  half: true
+  last: false
+  home: true
+  overlay: true
+  text: Glassworks is a boutique residential offering situated in the heart Melbourne’s vibrant inner city in Richmond. With 9 multi-level townhouses on the corner of Type and Glassworks Streets, these outstanding townhouses will offer every amenity to residents – large floor plans, rooftop terraces, spacious balconies and minutes from Bridge Road and Swan Street retail, food & beverage and lifestyle precincts.
+  hero: /images/collections/glass/img-01.jpg
+  thumb: /images/collections/glass/img-01.jpg
+  options: 
+    carousel:
+      - /images/collections/glass/img-02.jpg
+      - /images/collections/glass/img-03.jpg
+      - /images/collections/glass/img-04.jpg
+      - /images/collections/glass/img-05.jpg
+    text: ''
+    carousel02: 
+    title02: ''
+    text02: ''
+- name: Los Palmos Apartments
+  url: los-palmos-apartments
+  subtitle: GLEN HUNTLY
+  half: true
+  last: false
+  text: >
+    Los Palmas brings to Glen Huntly an amazing residential development featuring spacious 1, 2 and 3-bedroom residences with a Spanish and Moroccan feel. A short stroll to the train station and shopping village, these beautiful homes were well-received by their purchasers.
+  hero: /images/collections/los-palmos-apartments/20180226_LANDIS-ARCHITECTURE_034_LOS PALMOS.jpg
+  thumb: /images/collections/los-palmos-apartments/20180226_LANDIS-ARCHITECTURE_034_LOS PALMOS.jpg
+  options: 
+    carousel:
+      - '/images/collections/los-palmos-apartments/20180226_LANDIS-ARCHITECTURE_032_LOS PALMOS.jpg'
+      - '/images/collections/los-palmos-apartments/20180226_LANDIS-ARCHITECTURE_033_LOS PALMOS.jpg'
+    text: ''
+    carousel02: 
+    title02: ''
+    text02: ''
+- name: Grace Apartments
+  url: grace-apartments
+  subtitle: ESSENDON
+  half: false
+  last: false
+  text: >
+    Situated along a wide, palm tree-lined boulevard, Grace Apartments comprises 65 large apartments and two commercial spaces. The architectural team has cleverly integrated an existing church, while ground level features include a large, glazed fronted retail unit. There are generous landscaped areas, with road access through a carpark to the rear. Two separate entry lobbies serve the main building and church respectively.
+  hero: /images/collections/grace-apartments/grace-hero.jpg
+  thumb: /images/collections/grace-apartments/grace-hero.jpg
+  options: 
+    carousel:
+      - /images/collections/grace-apartments/20180226_LANDIS-ARCHITECTURE_005_QUEENS APARTMENTS_GRACE APARTMENTS.jpg
+      - /images/collections/grace-apartments/20180226_LANDIS-ARCHITECTURE_003_QUEENS APARTMENTS_GRACE APARTMENTS.jpg
+      - /images/collections/grace-apartments/20180226_LANDIS-ARCHITECTURE_006_QUEENS APARTMENTS_GRACE APARTMENTS.jpg
+    text: ''
+    carousel02: 
+    title02: ''
+    text02: ''
+- name: Queens Carlton
+  url: queens-carlton
+  subtitle: CARLTON
+  half: true
+  last: false
+  home: true
+  text: This collection of 53 architecturally-designed apartments is situated on the corner of Queensberry Street and Little Cardigan Street, Carlton. An ideal location with the CBD a block away and RMIT just across the road, it offers easy access to public transport including the tram, bus and train. A sound investment in high demand, it is popular among students and city workers.
+  hero: /images/collections/queens-carlton/img-01.jpg
+  thumb: /images/collections/queens-carlton/img-01.jpg
+  options: 
+    carousel:
+      - /images/collections/queens-carlton/img-04.jpg
+      - /images/collections/queens-carlton/img-02.jpg
+      - /images/collections/queens-carlton/img-03.jpg
+    text: ''
+    carousel02: 
+    title02: ''
+    text02: ''
+- name: Blue Skies
+  url: blue-skies
+  subtitle: BRISBANE
+  half: true
+  last: false
+  home: true
+  overlay: true
+  text: A brand new residential development comprising of 53 magnificently spacious townhomes. Blue Skies is just 20 minutes from the heart of Brisbane. It is an ideal place to live, work and play, with beaches, a marina and golf courses close by. Cleverly designed to maximise your living choices, the duplex townhomes offer a range of living and investment options. Live in a space of comfort or make the most of you investment by letting one or both levels
+  hero: /images/collections/blue/img-01.jpg
+  thumb: /images/collections/blue/img-01.jpg
+  options: 
+    carousel:
+      - /images/collections/blue/img-02.jpg
+      - /images/collections/blue/img-03.jpg
+      - /images/collections/blue/img-04.jpg
+      - /images/collections/blue/img-05.jpg
+      - /images/collections/blue/img-06.jpg
+    text: ''
+    carousel02: 
+    title02: The Perfect Location 
+    text02: Blue sky is a private sanctuary, nestled in the heart of South East Queenslands coastline. One of the fastest growing suburbs of Queensland, Kallangur offers lifestyle, sunshine and convenience, all at your fingertips.
+- name: Cedar Apartments
+  url: cedar-apartments
+  subtitle: CAULFIELD SOUTH
+  half: false
+  last: true
+  text: >
+    Cedar Apartments is situated opposite Caulfield Primary School with shops and cafes conveniently around the corner. Made up of 12 spacious, luxury apartments, all are finished to the highest standards with prestigious fittings that include European appliances and marble throughout. An exciting European restaurant is planned for the commercial space downstairs.
+  hero: /images/collections/cedar-apartments/20180226_LANDIS-ARCHITECTURE__03053_CEDAR APARTMENTS.jpg
+  thumb: /images/collections/cedar-apartments/20180226_LANDIS-ARCHITECTURE__03053_CEDAR APARTMENTS.jpg
+  options: 
+    carousel:
+      - /images/collections/carousel_CedarApartments1.jpg
+      - /images/collections/carousel_CedarApartments2.jpg
+    text: ''
+    carousel02: 
+    title02: ''
+    text02: ''
