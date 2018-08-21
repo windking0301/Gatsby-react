@@ -9,7 +9,13 @@ const PLinks = function( {data} ) {
 		<div>
 			<div className="wrapper padd">
 				<H1>Blue Skies</H1>
-				<ButtonContainer className="Button" download href="/images/agents-login/blue-skies.zip" >Download All</ButtonContainer>
+				<Banner>
+				<div className="Grid">
+					<div className="Grid-col col-05 stacked">
+					<ButtonContainer className="Button" download href="/images/agents-login/blue-skies.zip" >Download All</ButtonContainer>
+					</div>
+				</div>
+				</Banner> 
         		<Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
@@ -91,6 +97,8 @@ export default PLinks
 const ButtonContainer = styled.a`
 	border: 1px solid currentColor;
 	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	${below.phone`
 		margin-bottom: 25px;
 	`};
@@ -112,7 +120,7 @@ const ButtonContainer = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 15em;
+  width: 16em;
   transition: all 0.2s linear;
   white-space: nowrap;
   border-radius: 0;
@@ -129,6 +137,8 @@ color: #000;
 font-family: 'Neutra Text TF';
 font-weight:700;
 height: 5.2em;
+margin-left: auto;
+margin-right: auto;
 ${below.phone`
 	height: 5em;
 `};
