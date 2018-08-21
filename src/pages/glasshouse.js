@@ -10,7 +10,6 @@ const PLinks = function( {data} ) {
 		<div>
 			<div className="wrapper padd">
 				<H1>Glasshouse</H1>
-				<GoLink to="/agent-portal" title="Back" />
 				<ButtonContainer className="Button" download href="/images/agents-login/glasshouse.zip" >Download All</ButtonContainer>
         <Banner> 
 					<div className="Grid">
