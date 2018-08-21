@@ -143,7 +143,7 @@ const SubButton = styled.a`
 border: 1px solid currentColor;
 color: #000; 
 font-family: 'Neutra Text TF';
-text-shadow: 0px 0px #000;
+font-weight: 550;
 height: 5.2em;
 margin-left: auto;
 margin-right: auto;
