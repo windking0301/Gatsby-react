@@ -8,8 +8,14 @@ const PLinks = function( {data} ) {
 	return(
 		<div>
 			<div className="wrapper padd">  
-				<H1>No.1 Como</H1>
-				<ButtonContainer className="Button" download href="/images/agents-login/como.zip" >Download ALL</ButtonContainer>
+				<H1>No.1 Como</H1> 
+				<Banner> 
+					<div className="Grid">
+						<div className="Grid-col col-05 stacked">
+						<ButtonContainer className="Button" download href="/images/agents-login/como.zip" >Download ALL</ButtonContainer>
+						</div>
+					</div>
+				</Banner>
 				<Banner> 
 				<div className="Grid">
 					<div className="Grid-col col-05 stacked">
@@ -64,7 +70,9 @@ const ButtonContainer = styled.a`
 	margin-bottom: 50px;
 	${below.phone`
 		margin-bottom: 25px;
-	`};
+	`}; 
+	margin-right:auto;	
+	margin-left:auto;	
 	color: #000;
 	font-family: 'Neutra Text TF';
 	font-weight:700; 
@@ -83,7 +91,7 @@ const ButtonContainer = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 15em;
+  width: 17em;
   transition: all 0.2s linear;
   white-space: nowrap;
   border-radius: 0;
@@ -100,6 +108,8 @@ color: #000;
 font-family: 'Neutra Text TF';
 font-weight:700;
 height: 5.2em;
+margin-left:auto;
+margin-right:auto;
 ${below.phone`
 	height: 5em;
 `};
