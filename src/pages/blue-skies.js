@@ -112,7 +112,7 @@ const ButtonContainer = styled.a`
 	`};
 	color: #000;
 	font-family: 'Neutra Text TF';
-	font-weight:normal; 
+	font-weight:600; 
   height: 4.5em;
   ${below.phone`
   	height: 4.2em;
@@ -144,7 +144,6 @@ border: 1px solid currentColor;
 color: #000; 
 font-family: 'Neutra Text TF';
 text-shadow: 0px 0px #000;
-font-weight:500;
 height: 5.2em;
 margin-left: auto;
 margin-right: auto;
