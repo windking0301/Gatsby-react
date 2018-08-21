@@ -9,8 +9,14 @@ const PLinks = function( {data} ) {
 	return(
 		<div>
 			<div className="wrapper padd">
-				<H1>Glasshouse</H1>
-				<ButtonContainer className="Button" download href="/images/agents-login/glasshouse.zip" >Download All</ButtonContainer>
+				<H1>Glasshouse</H1> 
+				<Banner>
+				<div className="Grid">
+						<div className="Grid-col col-05 stacked">
+						<ButtonContainer className="Button" download href="/images/agents-login/glasshouse.zip" >Download All</ButtonContainer>
+						</div>
+					</div>
+				</Banner>
         <Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
@@ -57,6 +63,8 @@ const ButtonContainer = styled.a`
 		margin-bottom: 25px;
 	`};
 	color: #000;
+	margin-left:auto;
+	margin-right:auto;
 	font-family: 'Neutra Text TF';
 	font-weight:700; 
   height: 3.2em;
@@ -74,7 +82,7 @@ const ButtonContainer = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 15em;
+  width: 16em;
   transition: all 0.2s linear;
   white-space: nowrap;
   border-radius: 0;
@@ -90,6 +98,8 @@ border: 1px solid currentColor;
 color: #000; 
 font-family: 'Neutra Text TF';
 font-weight:700;
+margin-left:auto;
+	margin-right:auto;
 height: 5.2em;
 ${below.phone`
 	height: 5em;
