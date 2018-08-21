@@ -2,8 +2,7 @@ import React          from "react"
 import Collapsible from 'react-collapsible';
 import styled         from "styled-components";
 import { textStyles } from '../styles/vars'
-import { below }     from "../styles/functions";
-import { GoLink } from "../components/FindLink"
+import { below }     from "../styles/functions"; 
 const PLinks = function( {data} ) {
 	return(
 		<div>
@@ -19,7 +18,7 @@ const PLinks = function( {data} ) {
 				<Banner> 
 				<div className="Grid">
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/agent-agreement.pdf" target="_blank" >Agent Agreement</SubButton>
+						<SubButton className="Button" href="/images/agents-login/agent-agreement.pdf" target="_blank" ><span >Agent Agreement</span></SubButton>
 					</div> 
 					<div className="Grid-col col-05 stacked">
 						<SubButton className="Button" href="/images/agents-login/como/brochure.pdf" target="_blank" >Brochure</SubButton>
@@ -84,7 +83,7 @@ const ButtonContainer = styled.a`
 	`};
 	color: #000;
 	font-family: 'Neutra Text TF';
-	font-weight:normal; 
+	font-weight:600; 
   height: 4.5em;
   ${below.phone`
   	height: 4.2em;
@@ -115,14 +114,13 @@ const SubButton = styled.a`
 border: 1px solid currentColor;
 color: #000; 
 font-family: 'Neutra Text TF';
-text-shadow: 0px 0px #000;
-font-weight:500;
+font-weight: 550;
 height: 5.2em;
 margin-left:auto;
 margin-right:auto;
 ${below.phone`
 	height: 5em;
-`};
+`}; 
 :hover {
 	background-color: #000;
 	color: white;
@@ -142,10 +140,11 @@ transition: all 0.2s linear;
 white-space: nowrap;
 border-radius: 0;
 background: none; 
-font-size: 1.5rem;
-line-height: 1;
-letter-spacing: 0.33em; 
+font-size: 17px; 
+line-height: 1.4;
+letter-spacing: 0.3em; 
 cursor: pointer;
+
 ${below.phone`
 margin-bottom: 1.5em;
 `}; 
