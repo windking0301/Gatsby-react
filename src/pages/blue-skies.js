@@ -112,7 +112,7 @@ const ButtonContainer = styled.a`
 	`};
 	color: #000;
 	font-family: 'Neutra Text TF';
-	font-weight:600; 
+	font-weight:normal; 
   height: 4.5em;
   ${below.phone`
   	height: 4.2em;
@@ -143,7 +143,7 @@ const SubButton = styled.a`
 border: 1px solid currentColor;
 color: #000; 
 font-family: 'Neutra Text TF';
-font-weight:700;
+font-weight: normal;
 height: 5.2em;
 margin-left: auto;
 margin-right: auto;
