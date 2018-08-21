@@ -6,6 +6,7 @@ export const sizes = {
   desktop: 950,
   tablet: 768,
   phone: 600,
+  iphone: 1024,
 }
 
 export const above = Object.keys(sizes).reduce((accumulator, label) => {
