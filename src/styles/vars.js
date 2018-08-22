@@ -64,16 +64,17 @@ export const textStyles = {
 			font-size:1.3rem;
 		`};`,
 	h4: css`
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		line-height: 1;
-		font-weight: 800;
+		font-weight: 500;
 		letter-spacing: 0.33em; 
+		text-transform: uppercase;
 		color:${colors.black};
 	`,
 	p: css`
 		font-size: 2rem;
 		line-height:1.4; 
-		font-weight: 1500;
+		font-weight: 150;
 		margin-bottom:4rem;
 		white-space: pre-line;
 		color:${colors.black};
