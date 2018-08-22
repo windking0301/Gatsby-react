@@ -36,7 +36,9 @@ const AgentPortalContainer = styled.div`
 	.Grid-col.padd {
 		padding-bottom: 0;
 	}
-
+  .h2 {
+    letter-spacing:0.01em;
+  }
   .Flex-Grid-col {
     position:relative;
   }
