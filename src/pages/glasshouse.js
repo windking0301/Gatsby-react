@@ -58,6 +58,7 @@ export default PLinks
 
 const ButtonContainer = styled.a`
 	border: 1px solid currentColor; 
+	 
 	${below.iphone`
 		margin-left: 80px; 
 	`};
@@ -67,17 +68,17 @@ const ButtonContainer = styled.a`
 	${below.phone`
 		margin-left: 3px; 
 	`};
-	margin-bottom: 50px; 
-	margin-left: 120px; 
+	margin-bottom: 50px;
+	margin-left: 120px;
 	${below.phone`
 		margin-bottom: 25px;
 	`};
 	color: #000;
 	font-family: 'Neutra Text TF';
 	font-weight:600; 
-  height: 4.5em;
+  height: 3.5em;
   ${below.phone`
-  	height: 4.2em;
+  	height: 3.2em;
 	`};
 	:hover {
     background-color: #000;
@@ -104,15 +105,15 @@ const ButtonContainer = styled.a`
 const SubButton = styled.a`
 border: 1px solid currentColor;
 color: #000; 
-font-family: 'Neutra Text TF'; 
-text-overlay: none;
-font-weight:550;
+font-family: 'Neutra Text TF';
+font-weight: 500;
+text-shadow: 0px 0px #000;
+height: 4.2em;
 margin-left:auto;
 margin-right:auto;
-height: 5.2em;
 ${below.phone`
-	height: 5em;
-`};
+	height: 4em;
+`}; 
 :hover {
 	background-color: #000;
 	color: white;
@@ -124,7 +125,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-decoration: none;
-width: 22em;
+width: 19em;
 ${below.phone`
 	width: 100%;
 `};
@@ -132,10 +133,11 @@ transition: all 0.2s linear;
 white-space: nowrap;
 border-radius: 0;
 background: none; 
-font-size: 1.5rem;
-line-height: 1;
-letter-spacing: 0.33em; 
+font-size: 20px; 
+line-height: 1.4;
+letter-spacing: 0.05em; 
 cursor: pointer;
+
 ${below.phone`
 margin-bottom: 1.5em;
 `}; 
