@@ -11,9 +11,9 @@ export const FindLink = ({ children, to, color = null }) => (
   </FindLinkContainer>
 )
 export const GoLink = ({ to, title, color = null }) => (		
-  <ReadLinkContainer className="g1" to={to} color={color}>
+  <ReadLinkContainerr className="g1" to={to} color={color}>
     <H2>{title}</H2>
-  </ReadLinkContainer>
+  </ReadLinkContainerr>
 )
 export const ReadLink = ({ to, color = null }) => (		
   <ReadLinkContainer className="g1" to={to} color={color}>
@@ -95,5 +95,26 @@ const ReadLinkContainer = styled(Link)`
 		}
 	}
 `
+const ReadLinkContainerr = styled(Link)`
+	${textStyles.h1}; 
+	text-decoration: none;
+	color: ${colors.footerText};
+	transition: all 250ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	.icon{
+		content: '';
+		display:inline-block;
+		height: 0.9rem;
+		width: 10.8rem;
+		margin-left:1.5rem;
+		transition: all 250ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	}
+	&:hover,
+	&:active {
+		color:#000;
 
+		.icon {
+			transform:translateX(4px);
+		}
+	}
+`
 const SubmitContainer = FindLinkContainer.withComponent("input")
