@@ -66,7 +66,7 @@ const ButtonContainer = styled(Link)`
       props.color == "white" ? colors.white : colors.grey};
     color: ${props =>
       props.color == "white" ? colors.bodyText : colors.white};
-  }
+	} 
 `
 
 const ReadLinkContainer = styled(Link)`
