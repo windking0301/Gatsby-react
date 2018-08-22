@@ -11,7 +11,7 @@ const PLinks = function( {data} ) {
 				<Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
-						<ButtonContainer className="Button" download href="/images/agents-login/como.zip" >Download ALL</ButtonContainer>
+						<ButtonContainer className="Button" download href="/images/agents-login/como.zip" >Download</ButtonContainer>
 						</div>
 					</div>
 				</Banner>
@@ -84,9 +84,9 @@ const ButtonContainer = styled.a`
 	color: #000;
 	font-family: 'Neutra Text TF';
 	font-weight:600; 
-  height: 4.5em;
+  height: 3.5em;
   ${below.phone`
-  	height: 4.2em;
+  	height: 3.2em;
 	`};
 	:hover {
     background-color: #000;
@@ -114,12 +114,13 @@ const SubButton = styled.a`
 border: 1px solid currentColor;
 color: #000; 
 font-family: 'Neutra Text TF';
-font-weight: 550;
-height: 5.2em;
+font-weight: 500;
+text-shadow: 0px 0px #000;
+height: 4.2em;
 margin-left:auto;
 margin-right:auto;
 ${below.phone`
-	height: 5em;
+	height: 4em;
 `}; 
 :hover {
 	background-color: #000;
@@ -132,7 +133,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-decoration: none;
-width: 22em;
+width: 19em;
 ${below.phone`
 	width: 100%;
 `};
@@ -140,9 +141,9 @@ transition: all 0.2s linear;
 white-space: nowrap;
 border-radius: 0;
 background: none; 
-font-size: 17px; 
+font-size: 20px; 
 line-height: 1.4;
-letter-spacing: 0.3em; 
+letter-spacing: 0.05em; 
 cursor: pointer;
 
 ${below.phone`
