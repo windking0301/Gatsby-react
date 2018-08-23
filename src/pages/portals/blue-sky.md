@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 5
 title: "Blue Skies"
 src: "/images/collections/blue-skies-01.jpg"
 date: "2018-04-20"
