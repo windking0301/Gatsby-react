@@ -21,7 +21,7 @@ const PLinks = function( {data} ) {
 					<SubButton className="Button" href="/images/agents-login/como/pricelist-detailed.pdf" target="_blank" >Price List</SubButton>						
 					</div> 
 					<div className="Grid-col col-05 stacked">
-					<SubButton className="Button" href="/images/agents-login/como/video-v2.mp4" target="_blank" >Video</SubButton>
+					<SubButton className="Button" href="/images/agents-login/como/video.mp4" target="_blank" >Video</SubButton>
 					</div> 
 				</div>
 				</Banner> 
