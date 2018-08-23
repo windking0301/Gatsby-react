@@ -1,5 +1,5 @@
 ---
-index: 2
+index: 3
 title: "Glasshouse"
 src: "/images/collections/Glasshouse_Ext_Image.jpg"
 date: "2018-04-19"
