@@ -32,7 +32,7 @@ const PLinks = function( {data} ) {
 							<SubButton className="Button" href="/images/agents-login/blue-skies/2 - Fly-through video/Blue Skys Townhouses QLD - Landis Property.mp4" target="_blank" >Fly-Through Video</SubButton>
 						</div>
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/blue-skies/3 - Renders/Exterior Render 03 Blueskies.jpg" target="_blank" >Renders</SubButton>
+						<SubButton className="Button" href="/images/agents-login/blue-skies/Price List/pricelist.pdf" target="_blank" >Price List</SubButton>
 						</div>
 					</div>
 				</Banner>
@@ -62,7 +62,7 @@ const PLinks = function( {data} ) {
 							<SubButton className="Button" href="/images/agents-login/blue-skies/PIA explained/Dino Livanidis explains Cashflow on Blueskies.mp4" target="_blank" >PIA explained</SubButton>
 						</div>
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/blue-skies/Price List/pricelist.pdf" target="_blank" >Price List</SubButton>
+						<SubButton className="Button" href="/images/agents-login/blue-skies/Suburb Profile/Subur and Regional Profile.pdf" target="_blank" >Suburb Profile</SubButton>
 						</div>
 					</div>
 				</Banner>
@@ -80,10 +80,7 @@ const PLinks = function( {data} ) {
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
 							<SubButton className="Button" href="/images/agents-login/blue-skies/Shopping centre/shopping Centre.pdf" target="_blank" >Reservation form</SubButton>
-						</div>
-						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/blue-skies/Suburb Profile/Subur and Regional Profile.pdf" target="_blank" >Suburb Profile</SubButton>
-						</div>
+						</div> 
 					</div>
 				</Banner>
       </div>
