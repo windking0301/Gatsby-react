@@ -16,7 +16,9 @@ const AgentPortal = ({ src, title, text, to = "/" }) => (
       </Link>
       <TextWrap className="Flex-Grid-col col-06 padd stacked">
         <GoLink to={to} title={title} />
-        <p>{text}</p>
+        <Link to={to}>
+          <p>{text}</p>
+        </Link>
         <ReadLink to={to}/>
       </TextWrap>
     </div>
@@ -30,6 +32,9 @@ const AgentPortalContainer = styled.div`
     font-size:3.25rem;
     margin-bottom: 20px;
   } 
+  a:link {
+    text-decoration: none;
+  }
   p {
     max-width: 405px;
   }
