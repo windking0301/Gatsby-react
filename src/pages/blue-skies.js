@@ -59,7 +59,7 @@ const PLinks = function( {data} ) {
 				<Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/blue-skies/PIA explained/Dino Livanidis explains Cashflow on Blueskies.mp4" target="_blank" >PIA explained</SubButton>
+						<SubButton className="Button" href="/images/agents-login/blue-skies/Rail Link/Moreton+Bay+Rail+Link..pdf" target="_blank" >Rail Link</SubButton>
 						</div>
 						<div className="Grid-col col-05 stacked">
 						<SubButton className="Button" href="/images/agents-login/blue-skies/Suburb Profile/Subur and Regional Profile.pdf" target="_blank" >Suburb Profile</SubButton>
@@ -67,23 +67,13 @@ const PLinks = function( {data} ) {
 					</div>
 				</Banner>
 				<Banner> 
-					<div className="Grid">
-						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/blue-skies/Rail Link/Moreton+Bay+Rail+Link..pdf" target="_blank" >Rail Link</SubButton>
-						</div>
+					<div className="Grid"> 
 						<div className="Grid-col col-05 stacked">
 							<SubButton className="Button" href="/images/agents-login/blue-skies/Reservation form/Reservations Form.pdf" target="_blank" >Reservation form</SubButton>
 						</div>
 					</div>
-				</Banner>
-				<Banner> 
-					<div className="Grid">
-						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/blue-skies/Shopping centre/shopping Centre.pdf" target="_blank" >Reservation form</SubButton>
-						</div> 
-					</div>
-				</Banner>
-      </div>
+				</Banner> 
+      		</div>
 		</div>
 	)
 }
