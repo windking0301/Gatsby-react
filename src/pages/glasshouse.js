@@ -13,11 +13,11 @@ const PLinks = function( {data} ) {
 				<Banner>
 				<div className="Grid">
 						<div className="Grid-col col-05 stacked">
-						<ButtonContainer className="Button" download href="/images/agents-login/glasshouse.zip" >Download All</ButtonContainer>
+						<ButtonContainer className="Button" download href="/images/agents-login/glasshouse.zip" >Download</ButtonContainer>
 						</div>
 					</div>
 				</Banner>
-        <Banner> 
+        		<Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
 							<SubButton className="Button" href="/images/agents-login/agent-agreement.pdf" target="_blank" >Agent Agreement</SubButton>
@@ -30,18 +30,15 @@ const PLinks = function( {data} ) {
 				<Banner> 
 				<div className="Grid">
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/glasshouse/glasshouse.zip" >Renders</SubButton>
+					<SubButton className="Button" href="/images/agents-login/glasshouse/pricelist.pdf" target="_blank" >Price List</SubButton>
 					</div> 
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/glasshouse/floorplans.pdf" target="_blank" >Floor Plan</SubButton>
+						<SubButton className="Button" href="/images/agents-login/glasshouse/floorplans.pdf" target="_blank" >Floor Plans</SubButton>
 					</div>
 				</div>
 				</Banner>
 				<Banner> 
-				<div className="Grid">
-					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/glasshouse/pricelist.pdf" target="_blank" >Pricelist</SubButton>
-					</div> 
+				<div className="Grid">					
 					<div className="Grid-col col-05 stacked">
 						<SubButton className="Button" href="/images/agents-login/glasshouse/reservation.pdf" target="_blank" >Reservation</SubButton>
 					</div>
