@@ -18,40 +18,40 @@ const PLinks = function( {data} ) {
 				<Banner> 
 				<div className="Grid">
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/agent-agreement.pdf" target="_blank" ><span >Agent Agreement</span></SubButton>
+					<SubButton className="Button" href="/images/agents-login/como/pricelist-detailed.pdf" target="_blank" >Price List</SubButton>						
 					</div> 
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/como/brochure.pdf" target="_blank" >Brochure</SubButton>
+					<SubButton className="Button" href="/images/agents-login/como/video-v2.mp4" target="_blank" >Video</SubButton>
 					</div> 
 				</div>
 				</Banner> 
 				<Banner> 
 				<div className="Grid">
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/como/video-v2.mp4" target="_blank" >Master Video</SubButton>
+					<SubButton className="Button" href="/images/agents-login/como/brochure.pdf" target="_blank" >Brochure</SubButton>						
 					</div> 
 					<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/como/como.jpg" target="_blank" >Renders</SubButton>
+					<SubButton className="Button" href="/images/agents-login/como/floorplan.pdf" target="_blank" >Floor Plans</SubButton>
 					</div> 
 				</div>
 				</Banner>
 				<Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/como/reservation-form.pdf" target="_blank" >Reservation</SubButton>
+							<SubButton className="Button" href="/images/agents-login/como/schedule.pdf" target="_blank" >Depreciation Schedule</SubButton>
 						</div>
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/como/floorplan.pdf" target="_blank" >Floor Plans</SubButton>
+						<SubButton className="Button" href="/contact" target="_blank" >Contract</SubButton>
 						</div>
 					</div>
 				</Banner>
 				<Banner>
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/como/pricelist-detailed.pdf" target="_blank" >Pricelist</SubButton>
+						<SubButton className="Button" href="/images/agents-login/agent-agreement.pdf" target="_blank" ><span >Agents Authority</span></SubButton>
 						</div>
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/contact" target="_blank" >Contact</SubButton>
+						<SubButton className="Button" href="/images/agents-login/como/reservation-form.pdf" target="_blank" >Reservation</SubButton>
 						</div> 
 					</div>
 				</Banner>
