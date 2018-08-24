@@ -38,6 +38,16 @@ const PLinks = function( {data} ) {
 				</div>
 				</Banner>
 				<Banner> 
+					<div className="Grid">
+						<div className="Grid-col col-05 stacked">
+							<SubButton className="Button" href="/images/agents-login/glasshouse/QS20180277LD - Glass Works Richmond VIC - TDE  - Email Format.pdf" target="_blank" >Depreciation Schedule</SubButton>
+						</div>
+						<div className="Grid-col col-05 stacked">
+						<SubButton className="Button" href="/images/agents-login/glasshouse/Glassworks_ContractMaster.pdf" target="_blank" >Contract</SubButton>
+						</div>
+					</div>
+				</Banner>
+				<Banner> 
 				<div className="Grid">					
 					<div className="Grid-col col-05 stacked">
 						<SubButton className="Button" href="/images/agents-login/glasshouse/reservation.pdf" target="_blank" >Reservation</SubButton>
