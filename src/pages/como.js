@@ -38,10 +38,10 @@ const PLinks = function( {data} ) {
 				<Banner> 
 					<div className="Grid">
 						<div className="Grid-col col-05 stacked">
-							<SubButton className="Button" href="/images/agents-login/como/schedule.pdf" target="_blank" >Depreciation Schedule</SubButton>
+							<SubButton className="Button" href="/images/agents-login/como/QS20180276LD - No 1 Como Private Residences - Estimates - Email Format.pdf" target="_blank" >Depreciation Schedule</SubButton>
 						</div>
 						<div className="Grid-col col-05 stacked">
-						<SubButton className="Button" href="/images/agents-login/como/Contract.pdf" target="_blank" >Contract</SubButton>
+						<SubButton className="Button" href="/images/agents-login/como/FINAL - 1 Como - COS & VS - 3 July 2018.pdf" target="_blank" >Contract</SubButton>
 						</div>
 					</div>
 				</Banner>
